@@ -1,0 +1,54 @@
+<header class="main-header">
+  <div class="main-header__topo">
+    <h1 class="main-header__title">
+      <span class="main-header__title--logo">
+        Atrevida<br />
+        <span class="main-header__subtitle">Roupas e Acessórios</span>
+      </span>
+    </h1>
+  </div>
+
+  <div class="container-menu">
+    <nav class="main-header__menu">
+      <ul>
+        <li><a routerLink="produtos">Produtos</a></li>
+        <li>
+          <a routerLink="carrinho">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Carrinho
+            <span class="badge-carrinho">{{
+              carrinhoService.obtemCarrinho().length
+            }}</span>
+          </a>
+        </li>
+        <li><a routerLink="contato">Contato</a></li>
+        <li>
+          <a target="_blank" href="https://wa.me/5528999453033"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/bertoncelo.hugo/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/Hugobertoncelo"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/hugobertoncelo"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://hugobertoncelo.github.io/Portfolio/"
+            ><i class="fa-solid fa-address-card"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <app-barra-pesquisa></app-barra-pesquisa>
+  </div>
+</header>

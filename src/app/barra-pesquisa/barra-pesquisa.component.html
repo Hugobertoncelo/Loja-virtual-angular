@@ -1,0 +1,13 @@
+<form class="search-form" (ngSubmit)="pesquisar()">
+  <div class="input-wrapper">
+    <input
+      type="text"
+      name="descricao"
+      [(ngModel)]="descricao"
+      placeholder="Pesquisar..."
+    />
+    <button type="submit" class="search-icon" aria-label="Pesquisar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </div>
+</form>

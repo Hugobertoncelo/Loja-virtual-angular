@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.main-header__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-header__topo {
+  width: 100%;
+  text-align: center;
+}
+
+.main-header__title--logo {
+  font-family: "Lobster", cursive;
+  font-size: 3.5rem;
+  color: #ff1493;
+  text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff69b4;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.main-header__subtitle {
+  display: block;
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.5rem;
+  color: #c71585;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+}
+
+.main-header__menu a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  color: var(--light-blue);
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+  background-color: var(--purple);
+  color: #fff;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  width: 100%;
+}
+
+.badge-carrinho {
+  background-color: var(--dark-blue);
+  padding: 3px 8px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
