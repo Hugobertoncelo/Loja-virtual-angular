@@ -2,9 +2,9 @@
 
 .cart-title {
   font-size: 44px;
-  color: gray;
+  color: var(--rose);
   font-weight: 700;
-  padding: 8px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -34,7 +34,7 @@ img {
 .remove-button {
   background-color: rgb(255, 0, 76);
   border: none;
-  color: white;
+  color: var(--white);
   padding: 10px 20px;
   height: 40px;
   display: flex;
@@ -72,7 +72,7 @@ input {
 .buy-button {
   background-color: rgb(174, 0, 255);
   border: none;
-  color: white;
+  color: var(--white);
   padding: 10px;
   font-size: 22px;
   margin-bottom: 10px;
@@ -88,6 +88,17 @@ input {
 
 .buy-button:hover {
   filter: brightness(0.9);
+}
+
+.mensagem-compra {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {

@@ -15,7 +15,7 @@
 
 .product-description__container {
   flex: 1;
-  border: 1px solid #ccc;
+  border: 1px solid var(--dark-rose);
   border-radius: 8px;
   padding: 15px;
   box-sizing: border-box;
@@ -55,7 +55,7 @@ label {
   width: 32px;
   height: 32px;
   background-color: #6a0dad;
-  color: white;
+  color: var(--white);
   border: none;
   border-radius: 4px;
   font-size: 20px;
@@ -90,7 +90,7 @@ button {
   background-color: #6a0dad;
   border: none;
   padding: 10px;
-  color: white;
+  color: var(--white);
   font-size: 24px;
   border-radius: 20px;
   cursor: pointer;

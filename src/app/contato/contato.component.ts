@@ -15,12 +15,18 @@ export class ContatoComponent implements OnInit {
     mensagem: ['', [Validators.minLength(20), Validators.required]],
   });
 
+  mensagemSucesso: string = '';
+
   constructor(private fb: FormBuilder) {}
 
   ngOnInit(): void {}
 
   enviarFormulario() {
-    alert('A mensagem foi enviada!');
+    this.mensagemSucesso = 'A mensagem foi enviada com sucesso!';
     this.formContato.reset();
+
+    setTimeout(() => {
+      this.mensagemSucesso = '';
+    }, 3000);
   }
 }

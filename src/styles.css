@@ -87,7 +87,6 @@ video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -101,18 +100,23 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
   font-family: "Open Sans", Helvetica, Arial, "sans-serif";
+  background-color: rgb(253, 213, 253);
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -120,6 +124,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -127,13 +132,17 @@ table {
 
 :root {
   --rose: #ff0055;
+  --red: #ff0000;
   --purple: #6b139e;
   --green: #00a200;
-  --dark-blue: #002d47;
+  --white: #ffffff;
+  --dark-blue: #4f16b8;
   --gray: rgba(88, 89, 91, 1);
   --light-blue: rgb(148, 55, 224);
-  --light-gray: rgba(232, 232, 232, 1);
-  --light-gray-2: rgb(247, 247, 247);
+  --light-rose: rgb(229, 174, 243);
+  --dark-rose: rgb(240, 150, 252);
+  --light-purple: rgb(240, 207, 247);
+  --text-form: #a109f8;
 }
 
 input,
@@ -141,6 +150,10 @@ textarea,
 select {
   padding: 10px;
   font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--light-rose);
+  color: var(--text-form);
 }
 
 input:focus,
@@ -154,7 +167,7 @@ textarea {
 }
 
 .error-message {
-  color: red;
+  color: var(--red);
 }
 
 .valid {
@@ -162,16 +175,18 @@ textarea {
 }
 
 .invalid {
-  border: 1px solid red;
+  border: 1px solid var(--red);
 }
 
 .invalid:focus {
-  border-color: red;
+  border-color: var(--red);
 }
+
 html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;

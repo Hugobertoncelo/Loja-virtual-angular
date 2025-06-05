@@ -1,4 +1,9 @@
 <h2 class="cart-title">Carrinho</h2>
+
+<div *ngIf="mensagemCompra" class="mensagem-compra">
+  {{ mensagemCompra }}
+</div>
+
 <div *ngIf="itensCarrinho.length > 0; else semProduto">
   <ul>
     <li *ngFor="let itemCarrinho of itensCarrinho">

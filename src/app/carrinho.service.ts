@@ -15,7 +15,12 @@ export class CarrinhoService {
   }
 
   adicionarAoCarrinho(produto: IProdutoCarrinho) {
-    this.itens.push(produto);
+    const produtoExistente = this.itens.find((item) => item.id === produto.id);
+    if (produtoExistente) {
+      produtoExistente.quantidade += produto.quantidade;
+    } else {
+      this.itens.push(produto);
+    }
     localStorage.setItem('carrinho', JSON.stringify(this.itens));
   }
 

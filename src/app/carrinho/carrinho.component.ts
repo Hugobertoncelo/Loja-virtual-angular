@@ -11,11 +11,13 @@ import { IProdutoCarrinho } from '../produtos';
 export class CarrinhoComponent {
   itensCarrinho: IProdutoCarrinho[] = [];
   total = 0;
+  mensagemCompra = '';
 
   constructor(
     public carrinhoService: CarrinhoService,
     private router: Router
   ) {}
+
   ngOnInit(): void {
     this.itensCarrinho = this.carrinhoService.obtemCarrinho();
     this.calculaTotal();
@@ -37,8 +39,15 @@ export class CarrinhoComponent {
   }
 
   comprar() {
-    alert('Parabéns, você finalizou a sua compra!');
     this.carrinhoService.limparCarrinho();
-    this.router.navigate(['produtos']);
+    this.itensCarrinho = [];
+    this.calculaTotal();
+
+    this.mensagemCompra = 'Parabéns, você finalizou a sua compra!';
+
+    setTimeout(() => {
+      this.mensagemCompra = '';
+      this.router.navigate(['produtos']);
+    }, 3000);
   }
 }
