@@ -26,6 +26,7 @@
 .product__name {
   font-size: 36px;
   margin: 0;
+  color: var(--rose);
 }
 
 .product__price {
@@ -122,6 +123,7 @@ button:hover {
 
   .product__name {
     font-size: 18px;
+    color: var(--rose);
   }
 
   .product__price {

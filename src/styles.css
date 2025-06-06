@@ -104,7 +104,39 @@ section {
 body {
   line-height: 1;
   font-family: "Open Sans", Helvetica, Arial, "sans-serif";
-  background-color: rgb(253, 213, 253);
+  background: linear-gradient(
+    135deg,
+    #ffccf9,
+    #fcc2ff,
+    #f6c1ff,
+    #caffbf,
+    #fdffb6,
+    #9bf6ff,
+    #a0c4ff,
+    #bdb2ff,
+    #ffc6ff,
+    #fffffc
+  );
+  background-size: 600% 600%;
+  animation: gradientAnimation 6s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 ol,
@@ -138,10 +170,22 @@ table {
   --white: #ffffff;
   --dark-blue: #4f16b8;
   --gray: rgba(88, 89, 91, 1);
-  --light-blue: rgb(148, 55, 224);
-  --light-rose: rgb(229, 174, 243);
-  --dark-rose: rgb(240, 150, 252);
-  --light-purple: rgb(240, 207, 247);
+  --light-blue: rgb(55, 128, 224);
+  --light-rose: rgb(178, 243, 255);
+  --dark-rose: rgb(126, 223, 253);
+  :root {
+    --light-purple: linear-gradient(
+      135deg,
+      #ffccf9,
+      #f6c1ff,
+      #cdb4db,
+      #caffbf,
+      #a0c4ff,
+      #bdb2ff,
+      #ffc6ff
+    );
+  }
+
   --text-form: #a109f8;
 }
 
