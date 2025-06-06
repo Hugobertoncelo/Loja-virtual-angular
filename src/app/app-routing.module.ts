@@ -8,7 +8,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./produtos/produtos.module').then((m) => m.ProdutosModule),
   },
-  { path: '', redirectTo: 'produtos', pathMatch: 'full' },
+  {
+    path: 'acessorios',
+    loadChildren: () =>
+      import('./acessorios/acessorios.module').then((m) => m.AcessoriosModule),
+  },
   {
     path: 'carrinho',
     loadChildren: () =>
@@ -19,11 +23,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./contato/contato.module').then((m) => m.ContatoModule),
   },
+  { path: '', redirectTo: 'produtos', pathMatch: 'full' },
   { path: '**', component: NaoEncontradaComponent },
 ];
 
 @NgModule({
-  declarations: [],
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })

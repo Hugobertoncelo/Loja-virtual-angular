@@ -17,7 +17,7 @@ export const produtos: IProduto[] = [
     descricao: 'Vestido Laranja',
     preco: 199.0,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/vestido-laranja.jpg',
+    imagem: './assets/produtos/vestido-laranja.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -25,7 +25,7 @@ export const produtos: IProduto[] = [
     descricao: 'Conjunto Bege',
     preco: 220.0,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/conjunto-bege.jpg',
+    imagem: './assets/produtos/conjunto-bege.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -33,7 +33,7 @@ export const produtos: IProduto[] = [
     descricao: 'Macaquinho',
     preco: 149.99,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/macaquinho.jpg',
+    imagem: './assets/produtos/macaquinho.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -41,7 +41,7 @@ export const produtos: IProduto[] = [
     descricao: 'Conjunto Azul',
     preco: 599.99,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/conjunto-azul.webp',
+    imagem: './assets/produtos/conjunto-azul.webp',
     quantidadeEstoque: 10,
   },
   {
@@ -49,7 +49,7 @@ export const produtos: IProduto[] = [
     descricao: 'Vestido de Festa',
     preco: 299.99,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/vestido-festa.jpeg',
+    imagem: './assets/produtos/vestido-festa.jpeg',
     quantidadeEstoque: 10,
   },
   {
@@ -57,7 +57,7 @@ export const produtos: IProduto[] = [
     descricao: 'Conjunto Completo',
     preco: 399.99,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/conjunto-completo.jpg',
+    imagem: './assets/produtos/conjunto-completo.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -65,7 +65,7 @@ export const produtos: IProduto[] = [
     descricao: 'Conjuntinho',
     preco: 199.99,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/conjunto-short.jpg',
+    imagem: './assets/produtos/conjunto-short.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -73,7 +73,7 @@ export const produtos: IProduto[] = [
     descricao: 'Conjunto Branco',
     preco: 149.99,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/conjunto-branco.jpg',
+    imagem: './assets/produtos/conjunto-branco.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -81,7 +81,7 @@ export const produtos: IProduto[] = [
     descricao: 'Conjunto Rose',
     preco: 170,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/conjunto-rose.jpg',
+    imagem: './assets/produtos/conjunto-rose.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -89,7 +89,7 @@ export const produtos: IProduto[] = [
     descricao: 'Conjunto Preto',
     preco: 180,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/conjunto-preto.webp',
+    imagem: './assets/produtos/conjunto-preto.webp',
     quantidadeEstoque: 10,
   },
   {
@@ -97,7 +97,7 @@ export const produtos: IProduto[] = [
     descricao: 'Saia e Blusa',
     preco: 250,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/saia-blusa.jpg',
+    imagem: './assets/produtos/saia-blusa.jpg',
     quantidadeEstoque: 10,
   },
   {
@@ -105,7 +105,7 @@ export const produtos: IProduto[] = [
     descricao: 'Vestido Colorido',
     preco: 200,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/vestido-colorido.jpeg',
+    imagem: './assets/produtos/vestido-colorido.jpeg',
     quantidadeEstoque: 10,
   },
   {
@@ -113,7 +113,7 @@ export const produtos: IProduto[] = [
     descricao: 'Macaquinho Vinho',
     preco: 200,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/macaquinho-2.avif',
+    imagem: './assets/produtos/macaquinho-2.avif',
     quantidadeEstoque: 10,
   },
   {
@@ -121,7 +121,7 @@ export const produtos: IProduto[] = [
     descricao: 'Vestido Plus Size',
     preco: 180,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/vestido-plus.webp',
+    imagem: './assets/produtos/vestido-plus.webp',
     quantidadeEstoque: 10,
   },
   {
@@ -129,7 +129,7 @@ export const produtos: IProduto[] = [
     descricao: 'Macacão Vinho',
     preco: 259.99,
     descricaoPreco: 'À vista no PIX',
-    imagem: './assets/macacao.jpg',
+    imagem: './assets/produtos/macacao.jpg',
     quantidadeEstoque: 10,
   },
 ];
