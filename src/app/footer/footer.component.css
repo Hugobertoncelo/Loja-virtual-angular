@@ -19,13 +19,13 @@
   text-align: center;
   margin-top: 20px;
   font-weight: bold;
-  padding: 20px;
   color: var(--gray);
   max-width: 1200px;
   margin: 20px auto 0;
   box-sizing: border-box;
   width: 100%;
   min-width: 320px;
+  margin: -8px 0 0;
 }
 
 .footer__title {
@@ -72,7 +72,7 @@
   .footer__about-text {
     width: 100%;
     max-width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: -19px;
   }
 }
 
@@ -87,6 +87,7 @@
 
   .footer__about-text {
     font-size: 14px;
+    margin-bottom: -34px;
   }
 
   .footer li {

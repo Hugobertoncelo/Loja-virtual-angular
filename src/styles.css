@@ -106,37 +106,24 @@ body {
   font-family: "Open Sans", Helvetica, Arial, "sans-serif";
   background: linear-gradient(
     135deg,
-    #ffccf9,
-    #fcc2ff,
-    #f6c1ff,
-    #caffbf,
-    #fdffb6,
-    #9bf6ff,
-    #a0c4ff,
-    #bdb2ff,
-    #ffc6ff,
-    #fffffc
+    #ffd6d6,
+    #ffe0b2,
+    #fff9b0,
+    #d6f5d6,
+    #d0f0fd,
+    #e0d6ff,
+    #fbd6ff,
+    #f0f0f0,
+    #d1e8ff,
+    #e2ffe2,
+    #fce8b2,
+    #f5d6d6,
+    #d6e4f5,
+    #f9e6ff
   );
-  background-size: 600% 600%;
-  animation: gradientAnimation 6s ease infinite;
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 50% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  75% {
-    background-position: 50% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ol,
